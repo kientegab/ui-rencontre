@@ -10,7 +10,8 @@ import { AppLayoutModule } from './layout/app.layout.module';
     ],
     imports: [
         AppRoutingModule,
-        AppLayoutModule
+        AppLayoutModule,
+        
     ],
     providers: [
         { provide: LocationStrategy, useClass: HashLocationStrategy }

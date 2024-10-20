@@ -22,4 +22,7 @@ export class LandingComponent implements OnDestroy {
     ngOnDestroy() {
         this.subscription.unsubscribe();
     }
+    connecter(){
+        this.router.navigate(['/login']);
+    }
 }

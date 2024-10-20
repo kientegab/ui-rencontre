@@ -16,6 +16,9 @@ import { AnimateEnterDirective } from './animateenter.directive';
         RouterModule,
         StyleClassModule,
         AppConfigModule,
+        
+      
+
     ],
     declarations: [LandingComponent, AnimateEnterDirective]
 })
